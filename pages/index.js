@@ -5,7 +5,7 @@ export default function Home() {
   return (
     <div className="container">
       <Head>
-        <meta name="viewport" content="width=808; user-scalable=0;" />
+
         <title>Renan Bocchi's Portifolium</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
@@ -16,15 +16,15 @@ export default function Home() {
         </h1>
 
         <h2 id='conheça'>Conheça abaixo alguns projetos dos quais fiz parte<br></br> durante a <a href="https://experience.gama.academy/" target='_blank'><spam id='gama'>Gama</spam> <spam id='xp'>Experience</spam></a>!</h2>
-        <br></br><br></br>
-        <h3>Desafios em Grupo</h3>
+        
+        <h5>Desafios em Grupo</h5>
         <div className="grid">
                 <Link href="/novamente" passHref>
                   <a className='card'>
                     <div >
                       
                         <h3>NovaMente &rarr;</h3>
-                        <p>LP para captação de leads de produto relacionado à consultas psicológicas online!</p>
+                        <p>LP para captação de leads para consultas psicológicas online!</p>
                                       
                     </div>
                   </a>
@@ -32,13 +32,13 @@ export default function Home() {
                 <Link href="/engaja" passHref>
                     <a className="card">
                       <h3>Engaja &rarr;</h3>
-                      <p>LP feita para divulgação de evento cujo objetivo foi debater a representatividade negra!</p>
+                      <p>LP feita para divulgação de evento a respeito da representatividade negra!</p>
                     </a>
                 </Link>
           </div>
 
-          <br></br><br></br>
-          <h3>Desafios individuais</h3>
+         
+          <h5>Desafios individuais</h5>
 
           <div className="grid">
               <a
@@ -47,7 +47,7 @@ export default function Home() {
                 target='_blank'
               >
                 <h3>Churras Calculator &rarr;</h3>
-                <p>Calculadora para churrasco que considera veganos e se nega a calcular bebidas alcoolicas na presença de muitas crianças.</p>
+                <p>Calculadora para churrasco com JavaScript.</p>
               </a>
 
               <a
@@ -57,7 +57,7 @@ export default function Home() {
               >
                 <h3>RepoNames &rarr;</h3>
                   <p>
-                    App feito durante a aula de ReactJS que pesquisa o nome dos repositório do GitHub de determinado usuário.
+                    App em ReactJS que busca, na API do GitHub, nomes de repositório. 
                   </p>
               </a>
         </div>
@@ -84,6 +84,8 @@ export default function Home() {
           padding:16px;
           text-align:center;
         }
+
+        h5{text-align:center;}
 
         #xp{
           color:#0096c7;
@@ -188,11 +190,12 @@ export default function Home() {
           margin-top: 0.5rem;
         }
 
+
         .card {
           margin: 1rem;
           flex-basis: 45%;
           padding: 1.5rem;
-          text-align: left;
+          text-align: center;
           color: inherit;
           text-decoration: none;
           border: 1px solid #eaeaea;
@@ -200,9 +203,20 @@ export default function Home() {
           transition: color 0.15s ease, border-color 0.15s ease;
           background-color:#0096c7 !important;
           color:#03045e;
-          min-width:360px !important;
-          min-height:218px !important;
+          min-width:250px !important;
+          max-width:250px !important;
+          min-height:250px !important;
+          max-height:250px !important;
+     
         }
+        .card h3 {
+          margin: 0 0 1rem 0;
+          font-size: 1.17rem !important;
+      }   
+          .card p {
+          margin: 0 0 1rem 0;
+          font-size: 1rem !important;
+      }
 
         .card:hover,
         .card:focus,
@@ -232,6 +246,9 @@ export default function Home() {
             width: 100%;
             flex-direction: column;
           }
+        }
+        h3{
+          text-align:center !important;
         }
       `}</style>
 

@@ -6,18 +6,17 @@ export default function NovaMente() {
   return (
     <div className="container">
       <Head>
-      <meta name="viewport" content="width=808; user-scalable=0;" />
         <title>NovaMente</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
       <main>
         <h1 className="title">
-          NovaMente
+          Nova Mente
         </h1>
 
         <h2 id='conheça'>Persona criada para captação de leads com base na<br></br> TelaVita - psicologia online.</h2>
-        <br></br><br></br><br></br><br></br><br></br>
+        <br></br><br></br><br></br>
         
         <div className="grid">
           <a href="https://docs.google.com/presentation/d/1ze2jfezc5NNMN6e0UL8JGV63xmcg6SPL2F5HljY7U-U/edit#slide=id.p" target='_blank' className="card">
@@ -30,15 +29,10 @@ export default function NovaMente() {
             <p>Clique aqui para acessar o repositório!</p>
           </a>
           </div>
-          <br></br><br></br><br></br><br></br><br></br>
+          <br></br><br></br><br></br>
 
           <div className="grid">
-        <Link href='/'>
-            <div className='card'>
-                    <h3 >VOLTAR &rarr;</h3>
-                    <p>Volte para a página clicando aqui e veja o poder da tag Link do NextJS!</p>
-            </div>
-        </Link>
+
           <a
             href="https://novamente.netlify.app/"
             className="card"
@@ -49,6 +43,13 @@ export default function NovaMente() {
               Clique aqui para acessar o produto final!
             </p>
           </a>
+
+          <Link href='/'>
+            <div className='card'>
+                    <h3 >VOLTAR &rarr;</h3>
+                    <p>Volte para a página clicando aqui e veja o poder da tag Link do NextJS!</p>
+            </div>
+        </Link>
         </div>
       </main>
 
@@ -177,12 +178,11 @@ export default function NovaMente() {
           margin-top: 0.5rem;
         }
 
-
         .card {
             margin: 1rem;
             flex-basis: 45%;
             padding: 1.5rem;
-            text-align: left;
+            text-align: center;
             color: inherit;
             text-decoration: none;
             border: 1px solid #eaeaea;
@@ -190,9 +190,21 @@ export default function NovaMente() {
             transition: color 0.15s ease, border-color 0.15s ease;
             background-color:#0096c7 !important;
             color:#03045e;
-            min-width:360px !important;
-            min-height:218px !important;
+            min-width:250px !important;
+            max-width:250px !important;
+            min-height:250px !important;
+            max-height:250px !important;
+       
           }
+          .card h3 {
+            margin: 0 0 1rem 0;
+            font-size: 1.17rem !important;
+            
+        }   
+            .card p {
+            margin: 0 0 1rem 0;
+            font-size: 1rem !important;
+        }
 
         .card:hover,
         .card:focus,
