@@ -47,7 +47,7 @@ export default function Engaja() {
           <Link href='/'>
             <div className='card'>
                     <h3 >VOLTAR &rarr;</h3>
-                    <p>Volte para a página clicando aqui e veja o poder da tag Link do NextJS!</p>
+                    <p>Volte para a página inicial clicando aqui e veja o poder da tag Link do NextJS!</p>
             </div>
         </Link>
         </div>
