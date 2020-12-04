@@ -13,7 +13,7 @@ export default function NovaMente() {
       <main>
         <h1 className="title">
           Nova Mente
-        </h1>
+        </h1><br></br><br></br><br></br>
 
         <h2 id='conheça'>Persona criada para captação de leads com base na<br></br> TelaVita - psicologia online.</h2>
         <br></br><br></br><br></br>
@@ -64,6 +64,7 @@ export default function NovaMente() {
           border-radius:30px;
           border-style:solid;
           border-color:#0096c7;
+
         }
         h1{
           font-size:3.7rem !important;

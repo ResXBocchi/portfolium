@@ -12,7 +12,7 @@ export default function Home() {
 
       <main>
         <h1 className="title">
-          Olá! Eu sou o <a href="https://linkedin.com/in/renanbocchi">Renan Bocchi</a>
+          Olá! Eu sou o <a href="https://linkedin.com/in/renanbocchi"><br></br>Renan Bocchi</a>
         </h1>
 
         <h2 id='conheça'>Conheça abaixo alguns projetos dos quais fiz parte<br></br> durante a <a href="https://experience.gama.academy/" target='_blank'><spam id='gama'>Gama</spam> <spam id='xp'>Experience</spam></a>!</h2>
@@ -68,13 +68,18 @@ export default function Home() {
       </footer>
 
       <style jsx>{`
-        
+
+        .container{
+          max-width:100vw;
+        }
+
         main{
           background-color:#ade8f4;
           border-radius:30px;
           border-style:solid;
           border-color:#0096c7;
-        }
+
+          }
         h1{
           font-size:3.7rem !important;
         }

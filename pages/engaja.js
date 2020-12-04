@@ -12,10 +12,10 @@ export default function Engaja() {
 
       <main>
         <h1 className="title">
-          Engaja
+          Engaja<br></br><br></br>
         </h1>
 
-        <h2 id='conheça'>Evento criado para fomentar o debate a respeito da representatividade negra na sociedade.</h2>
+        <h2 id='conheça'>Evento criado para fomentar o debate a<br></br> respeito da representatividade negra na sociedade.</h2>
         <br></br><br></br><br></br>
         
         <div className="grid">
@@ -64,13 +64,14 @@ export default function Engaja() {
             border-radius:30px;
             border-style:solid;
             border-color:#0096c7;
+
           }
           h1{
             font-size:3.7rem !important;
           }
   
           h2{
-            max-width:800px;
+            
             padding:16px;
             text-align:center;
           }
