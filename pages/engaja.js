@@ -6,6 +6,7 @@ export default function Engaja() {
   return (
     <div className="container">
       <Head>
+      <meta name="viewport" content="width=808; user-scalable=0;" />
         <title>Engaja</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>

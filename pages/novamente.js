@@ -6,6 +6,7 @@ export default function NovaMente() {
   return (
     <div className="container">
       <Head>
+      <meta name="viewport" content="width=808; user-scalable=0;" />
         <title>NovaMente</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
