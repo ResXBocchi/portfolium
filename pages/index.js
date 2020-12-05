@@ -12,7 +12,7 @@ export default function Home() {
 
       <main>
         <h1 className="title">
-          Olá! Eu sou o <a href="https://linkedin.com/in/renanbocchi"><br></br>Renan Bocchi</a>
+          Olá! Eu sou o <a target='_blank'href="https://linkedin.com/in/renanbocchi"><br></br>Renan Bocchi</a>
         </h1>
 
         <h2 id='conheça'>Conheça abaixo alguns projetos dos quais fiz parte<br></br> durante a <a href="https://experience.gama.academy/" target='_blank'><spam id='gama'>Gama</spam> <spam id='xp'>Experience</spam></a>!</h2>
